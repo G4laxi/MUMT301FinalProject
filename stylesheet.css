@@ -1,0 +1,122 @@
+.Button{
+  background-color: #ffcc00;
+  text-decoration-color: black;
+  width: 100%;
+  height: 10%;
+}
+
+#container {
+  width:100%;
+  height:100%;
+}
+  #slot1 {
+    width:7.6%;
+    height:100%;
+    column-rule: 1px solid black;
+    background-color:#cccccc;
+    float: left;
+  }
+  #slot2 {
+    width:7.6%;
+    height:100%;
+    column-rule: 1px solid black;
+    background-color:#8c8c8c;
+    float: left;
+  }
+  #slot3 {
+    width:7.6%;
+    height:100%;
+    column-rule: 1px solid black;
+    background-color:#cccccc;
+    float: left;
+  }
+  #slot4 {
+    width:7.6%;
+    height:100%;
+    column-rule: 1px solid black;
+    background-color:#8c8c8c;
+    float: left;
+  }
+  #slot5 {
+    width:7.6%;
+    height:100%;
+    column-rule: 1px solid black;
+    background-color:#cccccc;
+    float: left;
+  }
+  #slot6 {
+    width:7.6%;
+    height:100%;
+    column-rule: 1px solid black;
+    background-color:#8c8c8c;
+    float: left;
+  }
+  #slot7 {
+    width:7.6%;
+    height:100%;
+    background-color:#cccccc;
+    float: left;
+  }
+  #slot8 {
+    width:7.6%;
+    height:100%;
+    column-rule: 1px solid black;
+    background-color:#8c8c8c;
+    float: left;
+  }
+  #slot9 {
+    width:7.6%;
+    height:100%;
+    background-color:#cccccc;
+    float: left;
+  }
+  #slot10 {
+    width:7.6%;
+    height:100%;
+    column-rule: 1px solid black;
+    background-color:#8c8c8c;
+    float: left;
+  }
+  #slot11 {
+    width:7.6%;
+    height:100%;
+    column-rule: 1px solid black;
+    background-color:#cccccc;
+    float: left;
+  }
+  #slot12 {
+    width:7.6%;
+    height:100%;
+    column-rule: 1px solid black;
+    background-color:#8c8c8c;
+    float: left;
+  }
+  #master {
+    width:7.6%;
+    height:100%;
+    column-rule: 1px solid black;
+    background-color:#cccccc;
+    float: left;
+  }
+  #fx {
+    width: 100%;
+    height: 10%;
+    float: left;
+  }
+  #adsr{
+    width: 100%;
+    height: 10%;
+    float: left;
+  }
+  #fader{
+    width: 100%;
+    height: 10%;
+    float: left;
+  }
+  #loadfile {
+    background-color: #ffcc00;
+    text-decoration-color: black;
+    width: 100%;
+    height: 10%;
+    float: left;
+  }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css" />
+
+    <script src="tone.js"></script>
+  <!--  <script src="Interface.js"></script> -->
+  </head>
+
+  <body>
+
+    <script>
+  /*    function readURL(e){
+        var sound = e;
+        sound.src = URL.createObjectURL(this.files[0])
+      }*/
+
+      /*    function playS1(){
+            new Tone.Player({
+        	       "url" : document.getElementsByName("s1").src,
+
+              }).toMaster();
+          } */
+
+/*     var s1Player = new Tone.Player({
+	     "url" : document.getElementsByName("s1").src/*"Bg_Clp.wav"*/
+
+/*      }).toMaster();
+
+      Interface.Loader();
+  		Interface.Button({
+  			start : function(){
+  				player.start();
+  			},
+  			end : function(){
+  				player.stop();
+  			}
+  		}); */
+
+    /*  function playS1() {
+          audio.play(document.getElementsByName("s1").src);
+      }*/
+
+      function playS1(){
+        var sound = document.getElementById('s1');
+        var reader = new FileReader();
+        reader.onload = function(e) {
+          sound.src = this.result;
+          sound.controls = flase;
+          sound.play();
+        };
+        //reader.readAsDataURL(this.files[0]);
+      }
+
+    </script>
+
+    <div id="container">
+      <div id="slot1">
+        <div id="fx"></div>
+        <div id="adsr"></div>
+        <div id="fader"></div>
+        <div id="loadfile">
+          <form action="upload">
+            <input type="file" name="s1" id= "sample" accept="audio/*"/>
+            <audio id="s1"></audio>
+          </form>
+        </div>
+        <button onclick="playS1();" class="Button">C1 | A</button>
+      </div>
+    </div>
+  </body>
+</html>
