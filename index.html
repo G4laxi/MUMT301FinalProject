@@ -22,12 +22,12 @@
               }).toMaster();
           } */
 
-/*     var s1Player = new Tone.Player({
-	     "url" : document.getElementsByName("s1").src/*"Bg_Clp.wav"*/
+     var playS1 = new Tone.Player({
+	     "url" : document.getElementsById("s1").src/*"Bg_Clp.wav"*/
 
-/*      }).toMaster();
+      }).toMaster();
 
-      Interface.Loader();
+  /*    Interface.Loader();
   		Interface.Button({
   			start : function(){
   				player.start();
@@ -41,7 +41,7 @@
           audio.play(document.getElementsByName("s1").src);
       }*/
 
-      function playS1(){
+    /*  function playS1(){
         var sound = document.getElementById('s1');
         var reader = new FileReader();
         reader.onload = function(e) {
@@ -50,7 +50,7 @@
           sound.play();
         };
         //reader.readAsDataURL(this.files[0]);
-      }
+      }*/
 
     </script>
 
