@@ -21,11 +21,12 @@
 
               }).toMaster();
           } */
-
-     var playS1 = new Tone.Player({
-	     "url" : document.getElementsById("s1").src/*"Bg_Clp.wav"*/
+    function playS1(){
+     var playSample = new Tone.Player({
+	     "url" : document.getElementById("s1").src/*"Bg_Clp.wav"*/
 
       }).toMaster();
+    }
 
   /*    Interface.Loader();
   		Interface.Button({
@@ -61,8 +62,8 @@
         <div id="fader"></div>
         <div id="loadfile">
           <form action="upload">
-            <input type="file" name="s1" id= "sample" accept="audio/*"/>
-            <audio id="s1"></audio>
+            <input type="file" name="s1" id= "s1" accept="audio/*"/>
+          <!--  <audio id="s1" src="s1.[mp3|ogg|wav]"></audio>-->
           </form>
         </div>
         <button onclick="playS1();" class="Button">C1 | A</button>
